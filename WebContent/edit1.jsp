@@ -19,14 +19,14 @@ pr.println(e.getId()+" "+e.getTitle()+" "+e.getAuthor()+" "+e.getPrice()+"<br>")
 %>
 
 <form name="edit1" action="BookController" method="get">
-  <h2>
+  <h6>
 id<input type='text' name="id"><br>
 title<input type='text' name='title'><br>
 author<input type='text' name='author'><br>
 price<input type='text' name='price'><br>
 
 <input type="submit" value="edit" name="button" >
-  </h2>
+  </h6>
     </form>
 
 </body>
